@@ -79,14 +79,14 @@ filterBtns.forEach(btn => {
 // Contact Form
 const contactForm = document.querySelector('.contact-form');
 
-contactForm.addEventListener('submit', (e) => {
-    const submitBtn = contactForm.querySelector('.submit-btn');
-    submitBtn.textContent = 'Sending...';
-    submitBtn.disabled = true;
-    
-    // Form will submit to Formspree
-    // After submission, Formspree will show thank you page
-});
+if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+        const submitBtn = contactForm.querySelector('.submit-btn');
+        submitBtn.textContent = 'Sending...';
+        submitBtn.disabled = true;
+        // Form will submit to Netlify
+    });
+}
 
 // Smooth scroll for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
