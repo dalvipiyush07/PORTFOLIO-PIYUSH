@@ -3,517 +3,859 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piyush Dalvi - DevOps Engineer | SRE | Founder of Terra.ai</title>
-    <meta name="description" content="DevOps Engineer and Site Reliability Engineer specializing in AWS, Terraform, Kubernetes, and CI/CD automation. Founder of Terra.ai.">
+    <title>Piyush Dalvi — AI & Cloud Engineer</title>
+    <meta name="description" content="Piyush Dalvi is an AI & Cloud Engineer building intelligent AI applications, cloud infrastructure, and automation solutions that solve real-world business problems.">
+    <meta name="keywords" content="AI Engineer, Cloud Engineer, DevOps, LLMs, Terraform, AWS, FastAPI, MockFriend, ScraperDesk, Ghotly AI">
+    <meta name="author" content="Piyush Dalvi">
+    <meta property="og:title" content="Piyush Dalvi — AI & Cloud Engineer">
+    <meta property="og:description" content="Building intelligent AI applications, cloud infrastructure, and automation solutions.">
+    <meta property="og:type" content="website">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;450;500;600;700;800;900&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <!-- Menu Toggle -->
-    <button class="menu-toggle" aria-label="Toggle Menu">
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
+<body class="light-mode">
 
-    <!-- Theme Toggle -->
-    <button class="theme-toggle" aria-label="Toggle Theme">
-        <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="12" cy="12" r="5"/>
-            <line x1="12" y1="1" x2="12" y2="3"/>
-            <line x1="12" y1="21" x2="12" y2="23"/>
-            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
-            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
-            <line x1="1" y1="12" x2="3" y2="12"/>
-            <line x1="21" y1="12" x2="23" y2="12"/>
-            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
-            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
-        </svg>
-        <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
-        </svg>
-    </button>
+    <!-- ========== NAVBAR ========== -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">PD</span>
+            </a>
 
-    <!-- Left Sidebar -->
-    <aside class="sidebar">
-        <div class="sidebar-content">
-            <div class="profile-image">
-                <img src="./img/PD.png" alt="Piyush Dalvi">
-            </div>
-            <h1 class="name">Piyush Dalvi</h1>
-            <p class="role">DevOps / Site Reliability Engineer</p>
-            <p class="tagline">Building Scalable Cloud Infrastructure & Automation Systems</p>
-            
-            <div class="contact-info">
-                <div class="info-item">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                        <polyline points="22,6 12,13 2,6"/>
-                    </svg>
-                    <a href="mailto:piyushdalvi65@gmail.com">piyushdalvi65@gmail.com</a>
-                </div>
-                <div class="info-item">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                        <circle cx="12" cy="10" r="3"/>
-                    </svg>
-                    <span>Pune, Maharashtra, India</span>
-                </div>
-                <div class="info-item">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
-                        <line x1="16" y1="2" x2="16" y2="6"/>
-                        <line x1="8" y1="2" x2="8" y2="6"/>
-                        <line x1="3" y1="10" x2="21" y2="10"/>
-                    </svg>
-                    <span>21/07/2004</span>
-                </div>
-            </div>
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#certifications" class="nav-link">Certs</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
 
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/piyush-dalvi-5b1499382" target="_blank" title="LinkedIn">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                    </svg>
-                </a>
-                <a href="https://github.com/dalvipiyush07" target="_blank" title="GitHub">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                    </svg>
-                </a>
-                <a href="https://medium.com/@piyushdalvi65" target="_blank" title="Medium">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
-                    </svg>
-                </a>
-                <a href="https://terraa.online" target="_blank" title="Terra.ai">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"/>
-                        <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-                    </svg>
-                </a>
+            <div class="nav-actions">
+                <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
+                    <span class="theme-icon" id="themeIcon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"/>
+                            <line x1="12" y1="1" x2="12" y2="3"/>
+                            <line x1="12" y1="21" x2="12" y2="23"/>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                            <line x1="1" y1="12" x2="3" y2="12"/>
+                            <line x1="21" y1="12" x2="23" y2="12"/>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                        </svg>
+                    </span>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Open menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
         </div>
-    </aside>
+    </header>
 
-    <!-- Main Content -->
-    <main class="main-content">
-        <!-- Navigation -->
-        <nav class="nav-tabs">
-            <button class="nav-tab active" data-section="about">About</button>
-            <button class="nav-tab" data-section="career">Career</button>
-            <button class="nav-tab" data-section="portfolio">Portfolio</button>
-            <button class="nav-tab" data-section="blog">Blog</button>
-            <button class="nav-tab" data-section="contact">Contact</button>
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-header">
+            <span class="logo-text">PD</span>
+            <button class="mobile-close" id="mobileClose" aria-label="Close menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+        </div>
+        <nav class="mobile-nav-links">
+            <a href="#home" class="mobile-nav-link">Home</a>
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#skills" class="mobile-nav-link">Skills</a>
+            <a href="#projects" class="mobile-nav-link">Projects</a>
+            <a href="#experience" class="mobile-nav-link">Experience</a>
+            <a href="#education" class="mobile-nav-link">Education</a>
+            <a href="#certifications" class="mobile-nav-link">Certifications</a>
+            <a href="#blog" class="mobile-nav-link">Blog</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
         </nav>
+        <div class="mobile-social">
+            <a href="https://github.com/dalvipiyush07" target="_blank" class="ms-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/piyush-dalvi-5b1499382" target="_blank" class="ms-link">LinkedIn</a>
+            <a href="mailto:piyushdalvi65@gmail.com" class="ms-link">Email</a>
+        </div>
+    </div>
+    <div class="mobile-overlay" id="mobileOverlay"></div>
 
-        <!-- About Section -->
-        <section id="about" class="section active">
-            <h2 class="section-title">About Me</h2>
-            <div class="glass-card">
-                <p class="about-text">I am a DevOps and Site Reliability Engineer with a strong focus on designing scalable, automated, and highly available cloud infrastructure. My expertise includes AWS cloud architecture, Infrastructure as Code (Terraform), configuration management (Ansible), CI/CD pipeline automation (Jenkins and GitHub Actions), and container orchestration using Kubernetes.</p>
-                <p class="about-text">As the Founder of <a href="https://terraa.online" target="_blank" class="accent-link">Terra.ai</a>, I am building a platform that empowers students and professionals to generate production-ready Terraform-based AWS infrastructure efficiently. My goal is to simplify cloud automation and make modern infrastructure practices more accessible and practical.</p>
-                <p class="about-text">I am driven by an automation-first mindset, reliability-by-design principles, and a commitment to building resilient, scalable, and secure cloud systems.</p>
+    <main>
+
+        <!-- ========== HERO ========== -->
+        <section id="home" class="hero">
+            <div class="hero-bg-grid"></div>
+            <div class="hero-content container">
+                <div class="hero-left reveal">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        Available for opportunities
+                    </div>
+                    <h1 class="hero-name">
+                        Piyush<br>
+                        <span class="gradient-text">Dalvi</span>
+                    </h1>
+                    <p class="hero-title">AI &amp; Cloud Engineer</p>
+                    <p class="hero-desc">
+                        Building intelligent AI applications, cloud infrastructure, and automation solutions that solve real-world business problems.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#" class="btn-primary" id="resumeBtn">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                            Download Resume
+                        </a>
+                        <a href="#contact" class="btn-secondary">Contact Me</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/dalvipiyush07" target="_blank" class="social-pill">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/piyush-dalvi-5b1499382" target="_blank" class="social-pill">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            LinkedIn
+                        </a>
+                        <a href="mailto:piyushdalvi65@gmail.com" class="social-pill">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            Email
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-right reveal-right">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-glow"></div>
+                        <div class="hero-image-ring"></div>
+                        <img src="./img/PD.png" alt="Piyush Dalvi" class="hero-image">
+                        <div class="hero-card-float card-1">
+                            <span class="float-icon">🤖</span>
+                            <div>
+                                <div class="float-title">AI Engineer</div>
+                                <div class="float-sub">LLMs & Agents</div>
+                            </div>
+                        </div>
+                        <div class="hero-card-float card-2">
+                            <span class="float-icon">☁️</span>
+                            <div>
+                                <div class="float-title">Cloud Expert</div>
+                                <div class="float-sub">AWS & Terraform</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="hero-scroll-indicator">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
 
-            <h3 class="subsection-title">What I'm Doing</h3>
-            <div class="doing-grid">
-                <div class="doing-card glass-card">
-                    <div class="doing-icon">⚙️</div>
-                    <h4>DevOps & Automation</h4>
-                    <ul>
-                        <li>Infrastructure as Code</li>
-                        <li>CI/CD Pipeline Design</li>
-                        <li>Workflow Automation</li>
-                    </ul>
-                </div>
-                <div class="doing-card glass-card">
-                    <div class="doing-icon">☁️</div>
-                    <h4>Cloud Architecture</h4>
-                    <ul>
-                        <li>AWS Infrastructure</li>
-                        <li>High Availability</li>
-                        <li>Auto Scaling & Load Balancing</li>
-                    </ul>
-                </div>
-                <div class="doing-card glass-card">
-                    <div class="doing-icon">🔒</div>
-                    <h4>Security & Monitoring</h4>
-                    <ul>
-                        <li>IAM & Access Control</li>
-                        <li>CloudWatch</li>
-                        <li>Prometheus & Grafana</li>
-                    </ul>
-                </div>
-                <div class="doing-card glass-card">
-                    <div class="doing-icon">🚀</div>
-                    <h4>Founder & Builder</h4>
-                    <ul>
-                        <li>Terra.ai Platform</li>
-                        <li>Terraform Code Generation</li>
-                        <li>Cloud Education</li>
-                    </ul>
+        <!-- ========== ABOUT ========== -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-label reveal">About</div>
+                <div class="about-grid">
+                    <div class="about-text reveal">
+                        <h2 class="section-heading">About <span class="gradient-text">Me</span></h2>
+                        <p class="about-p">
+                            I'm an AI &amp; Cloud Engineer passionate about building intelligent applications and scalable cloud solutions. My expertise spans Artificial Intelligence, cloud infrastructure, automation, backend systems, and modern web technologies.
+                        </p>
+                        <p class="about-p">
+                            I enjoy creating AI-powered applications, cloud-native systems, and intelligent automation platforms that solve real-world business challenges. I'm constantly learning new technologies and improving my skills to build software that is scalable, reliable, efficient, and user-friendly.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">3+</div>
+                                <div class="stat-label">AI SaaS Products</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">15+</div>
+                                <div class="stat-label">Projects Built</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">8+</div>
+                                <div class="stat-label">Technologies</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="what-i-do reveal-right">
+                        <h3 class="wid-title">What I Do</h3>
+                        <div class="wid-grid">
+                            <div class="wid-card">
+                                <div class="wid-icon">🤖</div>
+                                <h4>Artificial Intelligence</h4>
+                                <p>Designing intelligent AI-powered applications that improve productivity and automate complex tasks.</p>
+                            </div>
+                            <div class="wid-card">
+                                <div class="wid-icon">☁️</div>
+                                <h4>Cloud Solutions</h4>
+                                <p>Building scalable, secure, and reliable cloud infrastructure for modern applications.</p>
+                            </div>
+                            <div class="wid-card">
+                                <div class="wid-icon">⚡</div>
+                                <h4>Business Automation</h4>
+                                <p>Helping businesses automate repetitive workflows, optimize operations, and improve efficiency using AI.</p>
+                            </div>
+                            <div class="wid-card">
+                                <div class="wid-icon">💻</div>
+                                <h4>Modern Applications</h4>
+                                <p>Building responsive, high-performance, and user-friendly applications focused on exceptional user experience.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Career Section -->
-        <section id="career" class="section">
-            <h2 class="section-title">Certifications & Experience</h2>
-            
-            <h3 class="subsection-title">Certifications</h3>
-            <div class="cert-grid">
-                <div class="cert-card glass-card">
-                    <div class="cert-icon">🎓</div>
-                    <h4>AWS & DevOps Certified</h4>
-                    <p class="cert-org"><a href="https://www.fortunecloudindia.com/" target="_blank" class="cert-link">Fortune Cloud Technologies, Pune</a></p>
-                </div>
-                <div class="cert-card glass-card">
-                    <div class="cert-icon">📊</div>
-                    <h4>Amazon Web Services Analytics Assessment</h4>
-                    <p class="cert-org">LearnTube.ai</p>
-                </div>
-            </div>
-
-            <h3 class="subsection-title">Experience</h3>
-            <div class="cert-card glass-card">
-                <div class="cert-icon">💼</div>
-                <h4>DevOps Internship</h4>
-                <p class="cert-org"><a href="https://cravitaindia.com/" target="_blank" class="cert-link">Cravita Technologies</a></p>
-            </div>
-
-            <h3 class="subsection-title">Technical Skills</h3>
-            
-            <div class="skills-category glass-card">
-                <h3>Cloud & DevOps</h3>
-                <div class="skills-grid">
-                    <div class="skill-item">AWS (EC2, VPC, ECS, S3, IAM, ELB, ECR)</div>
-                    <div class="skill-item">Route53</div>
-                    <div class="skill-item">Lambda</div>
-                    <div class="skill-item">CloudWatch</div>
-                    <div class="skill-item">Terraform</div>
-                    <div class="skill-item">Ansible</div>
-                </div>
-            </div>
-
-            <div class="skills-category glass-card">
-                <h3>Containerization & Microservices</h3>
-                <div class="skills-grid">
-                    <div class="skill-item">Docker</div>
-                    <div class="skill-item">Kubernetes</div>
-                    <div class="skill-item">Docker Compose</div>
-                    <div class="skill-item">Microservices Architecture</div>
-                </div>
-            </div>
-
-            <div class="skills-category glass-card">
-                <h3>CI/CD & Automation</h3>
-                <div class="skills-grid">
-                    <div class="skill-item">Jenkins</div>
-                    <div class="skill-item">Git & GitHub</div>
-                    <div class="skill-item">GitHub Actions</div>
-                    <div class="skill-item">Pipeline Design</div>
-                </div>
-            </div>
-
-            <div class="skills-category glass-card">
-                <h3>Linux & Scripting</h3>
-                <div class="skills-grid">
-                    <div class="skill-item">Linux Administration</div>
-                    <div class="skill-item">Shell / Bash</div>
-                    <div class="skill-item">Python</div>
-                    <div class="skill-item">Process Automation</div>
-                </div>
-            </div>
-
-            <div class="skills-category glass-card">
-                <h3>Infrastructure & Monitoring</h3>
-                <div class="skills-grid">
-                    <div class="skill-item">VPC Design</div>
-                    <div class="skill-item">Load Balancing</div>
-                    <div class="skill-item">High Availability</div>
-                    <div class="skill-item">Auto Scaling</div>
-                    <div class="skill-item">Prometheus</div>
-                    <div class="skill-item">Grafana</div>
-                    <div class="skill-item">Log Analysis</div>
+        <!-- ========== SKILLS ========== -->
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <div class="section-label reveal">Skills</div>
+                <h2 class="section-heading centered reveal">Technical <span class="gradient-text">Expertise</span></h2>
+                <p class="section-sub centered reveal">Technologies and tools I work with to build intelligent, scalable solutions.</p>
+                <div class="skills-grid-outer">
+                    <div class="skill-category reveal">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">🤖</div>
+                            <h3>Artificial Intelligence</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-badge ai">Large Language Models</span>
+                            <span class="skill-badge ai">AI Agents</span>
+                            <span class="skill-badge ai">Model Context Protocol</span>
+                            <span class="skill-badge ai">RAG</span>
+                            <span class="skill-badge ai">Prompt Engineering</span>
+                            <span class="skill-badge ai">Speech AI</span>
+                            <span class="skill-badge ai">Google Gemini</span>
+                            <span class="skill-badge ai">Claude</span>
+                            <span class="skill-badge ai">AI Workflow Automation</span>
+                        </div>
+                    </div>
+                    <div class="skill-category reveal">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">☁️</div>
+                            <h3>Cloud &amp; Infrastructure</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-badge cloud">AWS</span>
+                            <span class="skill-badge cloud">Terraform</span>
+                            <span class="skill-badge cloud">Docker</span>
+                            <span class="skill-badge cloud">Kubernetes</span>
+                            <span class="skill-badge cloud">Ansible</span>
+                            <span class="skill-badge cloud">Jenkins</span>
+                            <span class="skill-badge cloud">GitHub Actions</span>
+                            <span class="skill-badge cloud">Nginx</span>
+                            <span class="skill-badge cloud">Prometheus</span>
+                            <span class="skill-badge cloud">Grafana</span>
+                            <span class="skill-badge cloud">Loki</span>
+                        </div>
+                    </div>
+                    <div class="skill-category reveal">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">⚡</div>
+                            <h3>Backend &amp; Database</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-badge backend">FastAPI</span>
+                            <span class="skill-badge backend">Node.js</span>
+                            <span class="skill-badge backend">Python</span>
+                            <span class="skill-badge backend">REST APIs</span>
+                            <span class="skill-badge backend">Firebase</span>
+                            <span class="skill-badge backend">Supabase</span>
+                            <span class="skill-badge backend">PostgreSQL</span>
+                            <span class="skill-badge backend">Shell / Bash</span>
+                        </div>
+                    </div>
+                    <div class="skill-category reveal">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">💻</div>
+                            <h3>Core Expertise</h3>
+                        </div>
+                        <div class="skill-badges">
+                            <span class="skill-badge core">System Design</span>
+                            <span class="skill-badge core">Full Stack Dev</span>
+                            <span class="skill-badge core">Database Design</span>
+                            <span class="skill-badge core">Authentication</span>
+                            <span class="skill-badge core">Performance Optimization</span>
+                            <span class="skill-badge core">Linux Admin</span>
+                            <span class="skill-badge core">Problem Solving</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Portfolio Section -->
-        <section id="portfolio" class="section">
-            <h2 class="section-title">Portfolio</h2>
-            
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
-                <button class="filter-btn" data-filter="cicd">CI/CD</button>
-                <button class="filter-btn" data-filter="automation">Automation</button>
-                <button class="filter-btn" data-filter="serverless">Serverless</button>
-                <button class="filter-btn" data-filter="cloud">Cloud Architecture</button>
-            </div>
+        <!-- ========== PROJECTS ========== -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-label reveal">Portfolio</div>
+                <h2 class="section-heading centered reveal">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-sub centered reveal">AI-powered platforms and cloud infrastructure projects I've designed and built.</p>
 
-            <div class="projects-grid">
-                <div class="project-card glass-card" data-category="infrastructure automation cicd">
-                    <h3>End-to-End 3-Tier Infrastructure Automation</h3>
-                    <p>Complete infrastructure automation using Terraform, Ansible & Jenkins</p>
-                    <div class="tech-tags">
-                        <span class="tag">Terraform</span>
-                        <span class="tag">Ansible</span>
-                        <span class="tag">Jenkins</span>
-                        <span class="tag">AWS</span>
+                <div class="projects-grid">
+                    <!-- MockFriend -->
+                    <div class="project-card featured reveal">
+                        <div class="project-card-inner">
+                            <div class="project-image-wrap">
+                                <div class="project-placeholder mockfriend">
+                                    <div class="proj-icon-large">🎯</div>
+                                    <div class="proj-shimmer"></div>
+                                </div>
+                                <div class="project-badge">Featured</div>
+                            </div>
+                            <div class="project-body">
+                                <h3 class="project-name">MockFriend</h3>
+                                <p class="project-desc">An AI-powered interview preparation platform featuring resume-based interviews, real-time voice interactions, and personalized AI feedback using Google Gemini &amp; Claude.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Google Gemini</span>
+                                    <span class="tech-tag">Claude</span>
+                                    <span class="tech-tag">Deepgram STT</span>
+                                    <span class="tech-tag">FastAPI</span>
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">AWS</span>
+                                    <span class="tech-tag">Terraform</span>
+                                </div>
+                                <div class="project-actions">
+                                    <a href="https://mockfriend.in" target="_blank" class="proj-btn-primary">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                                        Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <a href="https://github.com/dalvipiyush07/End-to-End--3-Tier-Infrastructure-Automation-using-Terraform-Ansible-Jenkins" target="_blank" class="project-link">View on GitHub →</a>
-                </div>
 
-                <div class="project-card glass-card" data-category="cicd cloud">
-                    <h3>E-commerce Project Deployment</h3>
-                    <p>CI/CD pipeline implementation with Terraform & Jenkins</p>
-                    <div class="tech-tags">
-                        <span class="tag">Terraform</span>
-                        <span class="tag">Jenkins</span>
-                        <span class="tag">AWS</span>
-                        <span class="tag">CI/CD</span>
+                    <!-- Ghotly AI -->
+                    <div class="project-card featured reveal">
+                        <div class="project-card-inner">
+                            <div class="project-image-wrap">
+                                <div class="project-placeholder ghotly">
+                                    <div class="proj-icon-large">🧠</div>
+                                    <div class="proj-shimmer"></div>
+                                </div>
+                                <div class="project-badge">Featured</div>
+                            </div>
+                            <div class="project-body">
+                                <h3 class="project-name">Ghotly AI</h3>
+                                <p class="project-desc">An intelligent AI workspace assistant for real-time conversations, document understanding, and workflow automation with multi-LLM integration and conversation memory.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">LLMs</span>
+                                    <span class="tech-tag">Prompt Engineering</span>
+                                    <span class="tech-tag">FastAPI</span>
+                                    <span class="tech-tag">Cloud-Native</span>
+                                    <span class="tech-tag">AI Agents</span>
+                                </div>
+                                <div class="project-actions">
+                                    <a href="https://ghotlyai.in" target="_blank" class="proj-btn-primary">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                                        Live Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <a href="https://github.com/dalvipiyush07/E-commerce-Project-Deployment-" target="_blank" class="project-link">View on GitHub →</a>
-                </div>
 
-                <div class="project-card glass-card" data-category="cicd infrastructure">
-                    <h3>Static Website CI/CD Deployment</h3>
-                    <p>Automated deployment using Terraform & Jenkins</p>
-                    <div class="tech-tags">
-                        <span class="tag">Terraform</span>
-                        <span class="tag">Jenkins</span>
-                        <span class="tag">S3</span>
-                        <span class="tag">CloudFront</span>
+                    <!-- ScraperDesk -->
+                    <div class="project-card featured reveal">
+                        <div class="project-card-inner">
+                            <div class="project-image-wrap">
+                                <div class="project-placeholder scraperdesk">
+                                    <div class="proj-icon-large">🔍</div>
+                                    <div class="proj-shimmer"></div>
+                                </div>
+                                <div class="project-badge">Open Source</div>
+                            </div>
+                            <div class="project-body">
+                                <h3 class="project-name">ScraperDesk</h3>
+                                <p class="project-desc">A business lead generation platform with AI-assisted data extraction, scalable web scraping pipelines, REST APIs, and workflow automation for developers and businesses.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">AI Extraction</span>
+                                    <span class="tech-tag">Web Scraping</span>
+                                    <span class="tech-tag">REST APIs</span>
+                                    <span class="tech-tag">Automation</span>
+                                </div>
+                                <div class="project-actions">
+                                    <a href="https://scraperdesk.in" target="_blank" class="proj-btn-primary">
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                                        Live Demo
+                                    </a>
+                                    <a href="https://github.com/dalvipiyush07" target="_blank" class="proj-btn-outline">
+                                        GitHub →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <a href="https://github.com/dalvipiyush07/Static-Website-CI-CD-Deployment-using-Terraform-and-Jenkins" target="_blank" class="project-link">View on GitHub →</a>
-                </div>
 
-                <div class="project-card glass-card" data-category="cicd automation">
-                    <h3>Terraform Jenkins Voice Assistant</h3>
-                    <p>Voice-controlled infrastructure deployment automation</p>
-                    <div class="tech-tags">
-                        <span class="tag">Terraform</span>
-                        <span class="tag">Jenkins</span>
-                        <span class="tag">Automation</span>
+                    <!-- HR Automation -->
+                    <div class="project-card reveal">
+                        <div class="project-card-inner">
+                            <div class="project-image-wrap">
+                                <div class="project-placeholder hr">
+                                    <div class="proj-icon-large">👥</div>
+                                    <div class="proj-shimmer"></div>
+                                </div>
+                            </div>
+                            <div class="project-body">
+                                <h3 class="project-name">HR Automation Platform</h3>
+                                <p class="project-desc">A smart HR solution automating employee management, onboarding, document handling, and repetitive administrative tasks using AI.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">AI</span>
+                                    <span class="tech-tag">Automation</span>
+                                    <span class="tech-tag">FastAPI</span>
+                                    <span class="tech-tag">PostgreSQL</span>
+                                </div>
+                                <div class="project-actions">
+                                    <a href="https://github.com/dalvipiyush07" target="_blank" class="proj-btn-primary">
+                                        GitHub →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <a href="https://github.com/dalvipiyush07/Terraform-Jenkins-Voice-Assistant-Deployment" target="_blank" class="project-link">View on GitHub →</a>
-                </div>
 
-                <div class="project-card glass-card" data-category="serverless">
-                    <h3>Image Pixelator</h3>
-                    <p>Serverless image processing using AWS Lambda & S3</p>
-                    <div class="tech-tags">
-                        <span class="tag">Lambda</span>
-                        <span class="tag">S3</span>
-                        <span class="tag">Python</span>
-                        <span class="tag">Serverless</span>
+                    <!-- CloudForge -->
+                    <div class="project-card reveal">
+                        <div class="project-card-inner">
+                            <div class="project-image-wrap">
+                                <div class="project-placeholder cloudforge">
+                                    <div class="proj-icon-large">🏗️</div>
+                                    <div class="proj-shimmer"></div>
+                                </div>
+                            </div>
+                            <div class="project-body">
+                                <h3 class="project-name">CloudForge — 3-Tier Infrastructure</h3>
+                                <p class="project-desc">Scalable 3-tier AWS architecture using Terraform modules, Ansible automation, Jenkins CI/CD pipelines, IAM, and load balancing.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">AWS</span>
+                                    <span class="tech-tag">Terraform</span>
+                                    <span class="tech-tag">Ansible</span>
+                                    <span class="tech-tag">Jenkins</span>
+                                </div>
+                                <div class="project-actions">
+                                    <a href="https://github.com/dalvipiyush07/End-to-End--3-Tier-Infrastructure-Automation-using-Terraform-Ansible-Jenkins" target="_blank" class="proj-btn-primary">
+                                        GitHub →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <a href="https://github.com/dalvipiyush07/Image-Pixelator-using-AWS-Lambda-and-S3" target="_blank" class="project-link">View on GitHub →</a>
-                </div>
 
-                <div class="project-card glass-card" data-category="cicd cloud">
-                    <h3>Student App DevOps Project</h3>
-                    <p>Complete DevOps CI/CD implementation</p>
-                    <div class="tech-tags">
-                        <span class="tag">Jenkins</span>
-                        <span class="tag">Docker</span>
-                        <span class="tag">AWS</span>
-                        <span class="tag">CI/CD</span>
+                    <!-- Monitoring Stack -->
+                    <div class="project-card reveal">
+                        <div class="project-card-inner">
+                            <div class="project-image-wrap">
+                                <div class="project-placeholder monitor">
+                                    <div class="proj-icon-large">📊</div>
+                                    <div class="proj-shimmer"></div>
+                                </div>
+                            </div>
+                            <div class="project-body">
+                                <h3 class="project-name">Centralized Monitoring Stack</h3>
+                                <p class="project-desc">Centralized log aggregation and monitoring with Grafana, Loki, Promtail, and Prometheus. Real-time dashboards for infrastructure observability.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Grafana</span>
+                                    <span class="tech-tag">Prometheus</span>
+                                    <span class="tech-tag">Loki</span>
+                                    <span class="tech-tag">Promtail</span>
+                                </div>
+                                <div class="project-actions">
+                                    <a href="https://github.com/dalvipiyush07" target="_blank" class="proj-btn-primary">
+                                        GitHub →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <a href="https://github.com/dalvipiyush07/Student-App-Complete-DevOps-CI-CD-Project-" target="_blank" class="project-link">View on GitHub →</a>
-                </div>
-
-                <div class="project-card glass-card" data-category="cicd cloud">
-                    <h3>Book App CI/CD Implementation</h3>
-                    <p>Jenkins + AWS EC2 deployment guide</p>
-                    <div class="tech-tags">
-                        <span class="tag">Jenkins</span>
-                        <span class="tag">EC2</span>
-                        <span class="tag">CI/CD</span>
-                    </div>
-                    <a href="https://github.com/dalvipiyush07/Book-App-CI-CD-Implementation-Guide-Jenkins-AWS-EC2-" target="_blank" class="project-link">View on GitHub →</a>
-                </div>
-
-                <div class="project-card glass-card" data-category="serverless automation">
-                    <h3>Automated Document Processing</h3>
-                    <p>AWS Serverless document processing system</p>
-                    <div class="tech-tags">
-                        <span class="tag">Lambda</span>
-                        <span class="tag">S3</span>
-                        <span class="tag">DynamoDB</span>
-                        <span class="tag">Serverless</span>
-                    </div>
-                    <a href="https://github.com/dalvipiyush07/-Automated-Document-Processing-System-using-AWS-Serverless" target="_blank" class="project-link">View on GitHub →</a>
-                </div>
-
-                <div class="project-card glass-card" data-category="cloud infrastructure">
-                    <h3>Mark Your Attendance</h3>
-                    <p>3 Tier AWS SDK Architecture implementation</p>
-                    <div class="tech-tags">
-                        <span class="tag">AWS SDK</span>
-                        <span class="tag">EC2</span>
-                        <span class="tag">RDS</span>
-                        <span class="tag">3-Tier</span>
-                    </div>
-                    <a href="https://github.com/dalvipiyush07/Mark-Your-Attendance-3-Tier-AWS-SDK-Architecture-" target="_blank" class="project-link">View on GitHub →</a>
                 </div>
             </div>
         </section>
 
-        <!-- Blog Section -->
+        <!-- ========== EXPERIENCE ========== -->
+        <section id="experience" class="section section-alt">
+            <div class="container">
+                <div class="section-label reveal">Experience</div>
+                <h2 class="section-heading centered reveal">Work <span class="gradient-text">Experience</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="tl-header">
+                                <div class="tl-company-logo">
+                                    <span>AI</span>
+                                </div>
+                                <div>
+                                    <h3 class="tl-role">AI &amp; Cloud Engineer</h3>
+                                    <p class="tl-company">Freelance / Independent</p>
+                                </div>
+                                <div class="tl-date">2024 — Present</div>
+                            </div>
+                            <p class="tl-desc">Designing and building AI-powered applications, cloud infrastructure, automation systems, and modern software solutions. Created platforms like MockFriend, Ghotly AI, ScraperDesk, and Terra.ai.</p>
+                            <div class="tl-tags">
+                                <span>AI Engineering</span>
+                                <span>Cloud Architecture</span>
+                                <span>AWS</span>
+                                <span>LLMs</span>
+                                <span>Terraform</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="tl-header">
+                                <div class="tl-company-logo">
+                                    <span>CT</span>
+                                </div>
+                                <div>
+                                    <h3 class="tl-role">DevOps Intern</h3>
+                                    <p class="tl-company"><a href="https://cravitaindia.com/" target="_blank" class="tl-link">Cravita Technologies</a></p>
+                                </div>
+                                <div class="tl-date">2023</div>
+                            </div>
+                            <p class="tl-desc">Worked on CI/CD pipelines, cloud infrastructure automation, container orchestration using Docker and Kubernetes, and AWS infrastructure management during the DevOps internship.</p>
+                            <div class="tl-tags">
+                                <span>DevOps</span>
+                                <span>Docker</span>
+                                <span>Kubernetes</span>
+                                <span>CI/CD</span>
+                                <span>AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== EDUCATION ========== -->
+        <section id="education" class="section">
+            <div class="container">
+                <div class="section-label reveal">Education</div>
+                <h2 class="section-heading centered reveal">Academic <span class="gradient-text">Background</span></h2>
+                <div class="edu-grid">
+                    <div class="edu-card reveal">
+                        <div class="edu-icon">🎓</div>
+                        <div class="edu-body">
+                            <div class="edu-degree">Bachelor of Computer Applications (BCA)</div>
+                            <div class="edu-school">B.P. Sulakhe Commerce College, Barshi</div>
+                            <div class="edu-year">2022 — 2025</div>
+                            <p class="edu-desc">Studied Computer Applications with focus on programming, systems, networking, and software development.</p>
+                        </div>
+                    </div>
+                    <div class="edu-card reveal">
+                        <div class="edu-icon">🏛️</div>
+                        <div class="edu-body">
+                            <div class="edu-degree">Master in Cloud Architecture</div>
+                            <div class="edu-school"><a href="https://www.fortunecloudindia.com/" target="_blank" class="tl-link">Fortune Cloud Technologies, Pune</a></div>
+                            <div class="edu-year">2023 — 2024</div>
+                            <p class="edu-desc">Advanced training in AWS cloud architecture, DevOps practices, Infrastructure as Code, and site reliability engineering.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== CERTIFICATIONS ========== -->
+        <section id="certifications" class="section section-alt">
+            <div class="container">
+                <div class="section-label reveal">Certifications</div>
+                <h2 class="section-heading centered reveal">Certifications &amp; <span class="gradient-text">Achievements</span></h2>
+                <div class="cert-grid">
+                    <div class="cert-card reveal">
+                        <div class="cert-icon-wrap ai-cert">🤖</div>
+                        <div class="cert-body">
+                            <div class="cert-cat">Artificial Intelligence</div>
+                            <h3 class="cert-name">AI Engineering & LLM Integration</h3>
+                            <p class="cert-org">Self-directed Learning & Projects</p>
+                        </div>
+                        <div class="cert-badge">Practical</div>
+                    </div>
+                    <div class="cert-card reveal">
+                        <div class="cert-icon-wrap cloud-cert">☁️</div>
+                        <div class="cert-body">
+                            <div class="cert-cat">Cloud Computing</div>
+                            <h3 class="cert-name">Master in Cloud Architecture</h3>
+                            <p class="cert-org"><a href="https://www.fortunecloudindia.com/" target="_blank" class="tl-link">Fortune Cloud Technologies, Pune</a></p>
+                        </div>
+                        <div class="cert-badge">Certified</div>
+                    </div>
+                    <div class="cert-card reveal">
+                        <div class="cert-icon-wrap devops-cert">⚙️</div>
+                        <div class="cert-body">
+                            <div class="cert-cat">DevOps</div>
+                            <h3 class="cert-name">AWS & DevOps Engineering</h3>
+                            <p class="cert-org"><a href="https://www.fortunecloudindia.com/" target="_blank" class="tl-link">Fortune Cloud Technologies, Pune</a></p>
+                        </div>
+                        <div class="cert-badge">Certified</div>
+                    </div>
+                    <div class="cert-card reveal">
+                        <div class="cert-icon-wrap infra-cert">🏗️</div>
+                        <div class="cert-body">
+                            <div class="cert-cat">Infrastructure</div>
+                            <h3 class="cert-name">AWS Analytics Assessment</h3>
+                            <p class="cert-org">LearnTube.ai</p>
+                        </div>
+                        <div class="cert-badge">Assessed</div>
+                    </div>
+                    <div class="cert-card reveal">
+                        <div class="cert-icon-wrap auto-cert">⚡</div>
+                        <div class="cert-body">
+                            <div class="cert-cat">Automation</div>
+                            <h3 class="cert-name">Infrastructure Automation & IaC</h3>
+                            <p class="cert-org">Hands-on Projects (Terraform & Ansible)</p>
+                        </div>
+                        <div class="cert-badge">Practical</div>
+                    </div>
+                    <div class="cert-card reveal">
+                        <div class="cert-icon-wrap monitor-cert">📊</div>
+                        <div class="cert-body">
+                            <div class="cert-cat">Observability</div>
+                            <h3 class="cert-name">Monitoring & Observability Stack</h3>
+                            <p class="cert-org">Grafana, Prometheus, Loki & Promtail</p>
+                        </div>
+                        <div class="cert-badge">Practical</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== BLOG ========== -->
         <section id="blog" class="section">
-            <h2 class="section-title">Blog</h2>
-            <div class="blog-grid">
-                <article class="blog-card glass-card">
-                    <div class="blog-image">
-                        <img src="./img/end to end.png" alt="Blog post">
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-date">Medium Article</span>
-                        <h3>End-to-End 3 Tier Infrastructure Automation on AWS</h3>
-                        <p>Complete guide on automating 3-tier infrastructure using Terraform, Ansible & Jenkins</p>
-                        <a href="https://medium.com/@piyushdalvi65" target="_blank" class="blog-link">Read on Medium →</a>
-                    </div>
-                </article>
+            <div class="container">
+                <div class="section-label reveal">Blog</div>
+                <h2 class="section-heading centered reveal">Technical <span class="gradient-text">Writing</span></h2>
+                <p class="section-sub centered reveal">Articles and guides on AI engineering, cloud infrastructure, and DevOps automation.</p>
+                <div class="blog-grid">
+                    <article class="blog-card reveal">
+                        <div class="blog-img-wrap">
+                            <img src="./img/end to end.png" alt="End-to-End 3 Tier Infrastructure Automation" class="blog-img">
+                            <div class="blog-cat-badge">Infrastructure</div>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span>Medium Article</span>
+                                <span>·</span>
+                                <span>5 min read</span>
+                            </div>
+                            <h3 class="blog-title">End-to-End 3 Tier Infrastructure Automation on AWS</h3>
+                            <p class="blog-excerpt">Complete guide on automating 3-tier infrastructure using Terraform, Ansible &amp; Jenkins.</p>
+                            <a href="https://medium.com/@piyushdalvi65" target="_blank" class="blog-read">Read Article →</a>
+                        </div>
+                    </article>
 
-                <article class="blog-card glass-card">
-                    <div class="blog-image">
-                        <img src="./img/with-without.png" alt="Blog post">
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-date">Medium Article</span>
-                        <h3>NGINX Deployment on AWS EC2 using Ansible</h3>
-                        <p>Handler vs Without Handler - A comprehensive comparison</p>
-                        <a href="https://medium.com/@piyushdalvi65" target="_blank" class="blog-link">Read on Medium →</a>
-                    </div>
-                </article>
+                    <article class="blog-card reveal">
+                        <div class="blog-img-wrap">
+                            <img src="./img/serverless.png" alt="Serverless Lambda" class="blog-img">
+                            <div class="blog-cat-badge">Serverless</div>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span>Medium Article</span>
+                                <span>·</span>
+                                <span>4 min read</span>
+                            </div>
+                            <h3 class="blog-title">Serverless Pixel Magic with AWS Lambda</h3>
+                            <p class="blog-excerpt">Automated Image Pixelation System using serverless AWS Lambda and S3 architecture.</p>
+                            <a href="https://medium.com/@piyushdalvi65/serverless-pixel-magic-with-aws-lambda-automated-image-pixelation-system-3cd5eee393b2" target="_blank" class="blog-read">Read Article →</a>
+                        </div>
+                    </article>
 
-                <article class="blog-card glass-card">
-                    <div class="blog-image">
-                        <img src="./img/2 tier ansible.png" alt="Blog post">
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-date">Medium Article</span>
-                        <h3>Automating 2 Tier Application Deployment</h3>
-                        <p>Using Ansible for automated application deployment</p>
-                        <a href="https://medium.com/@piyushdalvi65" target="_blank" class="blog-link">Read on Medium →</a>
-                    </div>
-                </article>
+                    <article class="blog-card reveal">
+                        <div class="blog-img-wrap">
+                            <img src="./img/ansible.png" alt="Ansible on EC2" class="blog-img">
+                            <div class="blog-cat-badge">DevOps</div>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span>Medium Article</span>
+                                <span>·</span>
+                                <span>6 min read</span>
+                            </div>
+                            <h3 class="blog-title">Getting Started with Ansible on Amazon EC2</h3>
+                            <p class="blog-excerpt">Complete guide to setting up and using Ansible automation on AWS EC2 instances.</p>
+                            <a href="https://medium.com/@piyushdalvi65/getting-started-with-ansible-automation-on-amazon-ec2-3323ac96aa19" target="_blank" class="blog-read">Read Article →</a>
+                        </div>
+                    </article>
 
-                <article class="blog-card glass-card">
-                    <div class="blog-image">
-                        <img src="./img/automation ansible.png" alt="Blog post">
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-date">Medium Article</span>
-                        <h3>Ansible Automation Projects on AWS EC2</h3>
-                        <p>Collection of practical Ansible automation projects</p>
-                        <a href="https://medium.com/@piyushdalvi65" target="_blank" class="blog-link">Read on Medium →</a>
-                    </div>
-                </article>
+                    <article class="blog-card reveal">
+                        <div class="blog-img-wrap">
+                            <img src="./img/jenkins overview.png" alt="Jenkins CI/CD" class="blog-img">
+                            <div class="blog-cat-badge">CI/CD</div>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span>Medium Article</span>
+                                <span>·</span>
+                                <span>5 min read</span>
+                            </div>
+                            <h3 class="blog-title">Jenkins CI/CD on AWS EC2</h3>
+                            <p class="blog-excerpt">Setting up continuous integration and deployment with Jenkins on AWS EC2 instances.</p>
+                            <a href="https://medium.com/@piyushdalvi65/jenkins-ci-cd-on-aws-ec2-9c0295a25441" target="_blank" class="blog-read">Read Article →</a>
+                        </div>
+                    </article>
 
-                <article class="blog-card glass-card">
-                    <div class="blog-image">
-                        <img src="./img/ecom.png" alt="Blog post">
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-date">Medium Article</span>
-                        <h3>Fully Automated E-commerce Deployment</h3>
-                        <p>Complete automation with Terraform & Jenkins</p>
-                        <a href="https://medium.com/@piyushdalvi65" target="_blank" class="blog-link">Read on Medium →</a>
-                    </div>
-                </article>
+                    <article class="blog-card reveal">
+                        <div class="blog-img-wrap">
+                            <img src="./img/ecom.png" alt="E-commerce Automation" class="blog-img">
+                            <div class="blog-cat-badge">Automation</div>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span>Medium Article</span>
+                                <span>·</span>
+                                <span>7 min read</span>
+                            </div>
+                            <h3 class="blog-title">Fully Automated E-commerce Deployment</h3>
+                            <p class="blog-excerpt">Complete automation with Terraform &amp; Jenkins for production-ready e-commerce deployments.</p>
+                            <a href="https://medium.com/@piyushdalvi65" target="_blank" class="blog-read">Read Article →</a>
+                        </div>
+                    </article>
 
-                <article class="blog-card glass-card">
-                    <div class="blog-image">
-                        <img src="./img/serverless.png" alt="Blog post">
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-date">Medium Article</span>
-                        <h3>Serverless Pixel Magic with AWS Lambda</h3>
-                        <p>Automated Image Pixelation System using serverless architecture</p>
-                        <a href="https://medium.com/@piyushdalvi65/serverless-pixel-magic-with-aws-lambda-automated-image-pixelation-system-3cd5eee393b2" target="_blank" class="blog-link">Read on Medium →</a>
-                    </div>
-                </article>
-
-                <article class="blog-card glass-card">
-                    <div class="blog-image">
-                        <img src="./img/ansible.png" alt="Blog post">
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-date">Medium Article</span>
-                        <h3>Getting Started with Ansible Automation on Amazon EC2</h3>
-                        <p>Complete guide to setting up and using Ansible on AWS EC2</p>
-                        <a href="https://medium.com/@piyushdalvi65/getting-started-with-ansible-automation-on-amazon-ec2-3323ac96aa19" target="_blank" class="blog-link">Read on Medium →</a>
-                    </div>
-                </article>
-
-                <article class="blog-card glass-card">
-                    <div class="blog-image">
-                        <img src="./img/jenkins overview.png" alt="Blog post">
-                    </div>
-                    <div class="blog-content">
-                        <span class="blog-date">Medium Article</span>
-                        <h3>Jenkins CI/CD on AWS EC2</h3>
-                        <p>Setting up continuous integration and deployment with Jenkins on AWS</p>
-                        <a href="https://medium.com/@piyushdalvi65/jenkins-ci-cd-on-aws-ec2-9c0295a25441" target="_blank" class="blog-link">Read on Medium →</a>
-                    </div>
-                </article>
+                    <article class="blog-card reveal">
+                        <div class="blog-img-wrap">
+                            <img src="./img/with-without.png" alt="Nginx Ansible" class="blog-img">
+                            <div class="blog-cat-badge">DevOps</div>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span>Medium Article</span>
+                                <span>·</span>
+                                <span>4 min read</span>
+                            </div>
+                            <h3 class="blog-title">NGINX Deployment on AWS EC2 using Ansible</h3>
+                            <p class="blog-excerpt">Handler vs Without Handler — A comprehensive comparison for NGINX automation.</p>
+                            <a href="https://medium.com/@piyushdalvi65" target="_blank" class="blog-read">Read Article →</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="blog-cta reveal">
+                    <a href="https://medium.com/@piyushdalvi65" target="_blank" class="btn-secondary">View All Articles →</a>
+                </div>
             </div>
         </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="section">
-            <h2 class="section-title">Contact</h2>
-            <div class="contact-container">
-                <div class="contact-info-section glass-card">
-                    <div class="map-container">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.18174283427!2d73.72288079999999!3d18.52461545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1234567890" width="100%" height="300" style="border:0; filter: invert(90%) hue-rotate(180deg);" allowfullscreen="" loading="lazy"></iframe>
+        <!-- ========== CONTACT ========== -->
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <div class="section-label reveal">Contact</div>
+                <h2 class="section-heading centered reveal">Let's Work <span class="gradient-text">Together</span></h2>
+                <p class="section-sub centered reveal">Have a project in mind or want to discuss opportunities? I'd love to hear from you.</p>
+
+                <div class="contact-grid">
+                    <div class="contact-info reveal">
+                        <h3 class="contact-info-title">Get In Touch</h3>
+                        <div class="contact-items">
+                            <a href="mailto:piyushdalvi65@gmail.com" class="contact-item">
+                                <div class="ci-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                                </div>
+                                <div>
+                                    <div class="ci-label">Email</div>
+                                    <div class="ci-value">piyushdalvi65@gmail.com</div>
+                                </div>
+                            </a>
+                            <a href="tel:+919172326283" class="contact-item">
+                                <div class="ci-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                                </div>
+                                <div>
+                                    <div class="ci-label">Phone</div>
+                                    <div class="ci-value">+91 9172326283</div>
+                                </div>
+                            </a>
+                            <div class="contact-item">
+                                <div class="ci-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                </div>
+                                <div>
+                                    <div class="ci-label">Location</div>
+                                    <div class="ci-value">Pune, Maharashtra, India</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-social-links">
+                            <a href="https://github.com/dalvipiyush07" target="_blank" class="csl-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                                GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/piyush-dalvi-5b1499382" target="_blank" class="csl-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                                LinkedIn
+                            </a>
+                            <a href="https://medium.com/@piyushdalvi65" target="_blank" class="csl-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+                                Medium
+                            </a>
+                        </div>
                     </div>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-                            </svg>
-                            <a href="tel:+917709646107">+91 77096 46107</a>
-                        </div>
-                        <div class="contact-item">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                                <polyline points="22,6 12,13 2,6"/>
-                            </svg>
-                            <a href="mailto:piyushdalvi65@gmail.com">piyushdalvi65@gmail.com</a>
-                        </div>
+
+                    <div class="contact-form-wrap reveal-right">
+                        <form class="contact-form" name="contact" method="POST" data-netlify="true" action="/thank-you.html" id="contactForm">
+                            <input type="hidden" name="form-name" value="contact">
+                            <div class="form-row">
+                                <div class="form-field">
+                                    <label for="fname">Name</label>
+                                    <input type="text" id="fname" name="name" placeholder="Your full name" required>
+                                </div>
+                                <div class="form-field">
+                                    <label for="femail">Email</label>
+                                    <input type="email" id="femail" name="email" placeholder="your@email.com" required>
+                                </div>
+                            </div>
+                            <div class="form-field">
+                                <label for="fphone">Phone (optional)</label>
+                                <input type="tel" id="fphone" name="phone" placeholder="+91 XXXXX XXXXX">
+                            </div>
+                            <div class="form-field">
+                                <label for="fsubject">Subject</label>
+                                <input type="text" id="fsubject" name="subject" placeholder="What's this about?" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="fmessage">Message</label>
+                                <textarea id="fmessage" name="message" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+                            </div>
+                            <button type="submit" class="form-submit" id="formSubmit">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                                Send Message
+                            </button>
+                        </form>
                     </div>
                 </div>
-                <form class="contact-form glass-card" name="contact" method="POST" data-netlify="true" action="/thank-you.html">
-                    <input type="hidden" name="form-name" value="contact" />
-                    <input type="hidden" name="subject" value="New Portfolio Contact from %{formName} - %{submissionId}" data-remove-prefix />
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
             </div>
         </section>
+
     </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <span class="logo-text">PD</span>
+                    <p>Building intelligent AI applications &amp; cloud infrastructure.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/dalvipiyush07" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/piyush-dalvi-5b1499382" target="_blank">LinkedIn</a>
+                    <a href="https://medium.com/@piyushdalvi65" target="_blank">Medium</a>
+                    <a href="mailto:piyushdalvi65@gmail.com">Email</a>
+                </div>
+                <div class="footer-copy">
+                    <span>© 2025 Piyush Dalvi. All rights reserved.</span>
+                    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
