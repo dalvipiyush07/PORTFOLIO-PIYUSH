@@ -236,20 +236,10 @@ if (heroScrollIndicator) {
 }
 
 // =========================================================
-// RESUME BUTTON — placeholder, replace URL with actual resume
+// RESUME BUTTON — PDF download linked directly
 // =========================================================
-const resumeBtn = document.getElementById('resumeBtn');
-if (resumeBtn) {
-    resumeBtn.addEventListener('click', (e) => {
-        // Replace with actual resume URL or download link
-        // For now, prevent default and show a toast
-        const href = resumeBtn.getAttribute('href');
-        if (!href || href === '#') {
-            e.preventDefault();
-            showToast('Resume download coming soon! Contact me directly at piyushdalvi65@gmail.com');
-        }
-    });
-}
+// Resume PDF is linked via href + download attribute in HTML
+// No JS override needed
 
 // =========================================================
 // TOAST NOTIFICATION
