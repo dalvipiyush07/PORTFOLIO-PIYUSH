@@ -1467,6 +1467,133 @@ body.dark-mode .project-card.featured {
 }
 
 /* ============================================
+   GITHUB PROJECTS LIST
+   ============================================ */
+.gh-projects-wrap {
+    margin-top: 48px;
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xl);
+    padding: 36px;
+}
+
+.gh-projects-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 28px;
+    color: var(--text);
+}
+
+.gh-projects-header h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.gh-projects-header svg {
+    color: var(--text-secondary);
+}
+
+.gh-projects-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.gh-project-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 20px 24px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.gh-project-item:hover {
+    border-color: var(--gold-border);
+    box-shadow: var(--shadow-md);
+    transform: translateX(6px);
+}
+
+.gh-project-item:hover .gh-arrow {
+    color: var(--gold);
+    transform: translateX(4px);
+}
+
+.gh-project-left {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1;
+}
+
+.gh-icon {
+    font-size: 28px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gold-pale);
+    border-radius: var(--radius-md);
+    flex-shrink: 0;
+}
+
+.gh-project-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 4px;
+}
+
+.gh-project-desc {
+    font-size: 13.5px;
+    color: var(--text-secondary);
+    line-height: 1.55;
+    margin-bottom: 10px;
+}
+
+.gh-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.gh-tags span {
+    padding: 3px 10px;
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-full);
+    font-size: 11.5px;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.gh-arrow {
+    color: var(--text-muted);
+    flex-shrink: 0;
+    transition: var(--transition);
+}
+
+.gh-view-all {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 700px) {
+    .gh-projects-wrap { padding: 24px 20px; }
+    .gh-project-item { padding: 16px; }
+    .gh-project-left { gap: 12px; }
+}
+
+
+/* ============================================
    CONTACT
    ============================================ */
 .contact-grid {
